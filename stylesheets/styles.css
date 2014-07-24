@@ -56,47 +56,74 @@ body{
 
 /* pg_top */
 .pg_top {
-  background-color: rgb(25, 25, 25);
+  background-color: rgb(47, 47, 47);
   color: rgb(253, 253, 253);
   text-align: center;
-  height: 150px;
+  height: 170px;
 }
 
 .pg_top h1 {
-  font-size: 75px;
-  line-height: 120px;
+  font-size: 85px;
+  line-height: 140px;
 }
 
 .pg_top a {
   text-decoration: none;
+  font-size: 18px;
   margin: 0 15px;
+  color: rgb(120, 47, 120);
+}
+
+
+.pg_top, a.clicked {
+  color: rgb(253, 253, 253);
+}
+
+.pg_top, a:hover {
+  color: rgb(253, 253, 253);
+}
+
+/* About Me */
+.about_me {
+  display: block;
+  text-align: center;
 }
 
 /* Contact Me */
-.icon-squaregithub {
+.contact_me {
+  display: none;
+}
+.contact_me a{
+  color: rgb(47, 47, 47);
   font-size: 100px;
   text-decoration: none;
-  color: black;
 }
-
+/*.icon-squaregithub {
+}
 .icon-linkedin {
-  font-size: 100px;
-  text-decoration: none;
-  color: black; 
-}
+}*/
 
 /* My Work Content */
+.my_work {
+  width: 100%;
+  display: none;
+}
+
+.pieces {
+  margin: 0 auto;
+  display: table;
+}
 .box h3{
-  text-align:center;
-  position:relative;
+  text-align: center;
+  position: relative;
   top: 80px;
 }
 
 .box {
-  width: 30%;
+  width: 400px;
   height: 200px;
   background: #FFF;
-  margin: 40px auto;
+  margin: 70px 10px;
   display: inline-block;
 }
 
