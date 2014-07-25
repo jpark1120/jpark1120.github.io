@@ -10,19 +10,19 @@ function setEventHandlers(){
 
   $('#about_me').on('click', function(evt){
     evt.preventDefault();
-    $('div.about_me').siblings().css('display', 'none');
+    $('div.about_me').siblings().fadeOut(1);
     $('.about_me').fadeIn(500);
   });
 
   $('#my_work').on('click', function(evt){
     evt.preventDefault();
-    $('div.my_work').siblings().css('display', 'none');
+    $('div.my_work').siblings().fadeOut(1);
     $('.my_work').fadeIn(500);
   });
 
   $('#contact_me').on('click', function(evt){
     evt.preventDefault();
-    $('div.contact_me').siblings().css('display', 'none');
+    $('div.contact_me').siblings().fadeOut(1);
     $('.contact_me').fadeIn(500);
   });
 
