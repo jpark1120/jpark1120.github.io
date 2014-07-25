@@ -47,68 +47,59 @@ table {
   border-spacing: 0;
 }
 
+/***************************************/
 /* My Styles */
 body{
-  background-color: rgb(236, 240, 241);
+  background-image: url(../img/kindajean.png);
+  /*background-color: rgb(236, 240, 241);*/
   font-family: 'Nunito', sans-serif;
   letter-spacing: 0.1em;
 }
 
+
+/***************************************/
 /* pg_top */
 .pg_top {
-  background-color: rgb(47, 47, 47);
+  /*background-color: rgb(47, 47, 47);*/
+  background-color: rgba(0, 0, 0, 0.8);
   color: rgb(253, 253, 253);
   text-align: center;
   height: 170px;
 }
-
 .pg_top h1 {
   font-size: 85px;
   line-height: 140px;
 }
-
 .pg_top a {
   text-decoration: none;
   font-size: 18px;
   margin: 0 15px;
-  color: rgb(120, 47, 120);
-}
-
-
-.pg_top, a.clicked {
   color: rgb(253, 253, 253);
 }
-
-.pg_top, a:hover {
-  color: rgb(253, 253, 253);
+.pg_top a.clicked {
+  color: rgb(102, 153, 255);
+}
+.pg_top a:hover {
+  color: rgb(102, 153, 255);
 }
 
+
+/***************************************/
 /* About Me */
 .about_me {
   display: block;
   text-align: center;
 }
 
-/* Contact Me */
-.contact_me {
-  display: none;
-}
-.contact_me a{
-  color: rgb(47, 47, 47);
-  font-size: 100px;
-  text-decoration: none;
-}
-/*.icon-squaregithub {
-}
-.icon-linkedin {
-}*/
 
+/***************************************/
 /* My Work Content */
 .my_work {
   width: 100%;
   display: none;
+/*  white-space: nowrap;
+  overflow: scroll;*/
 }
-
 .pieces {
   margin: 0 auto;
   display: table;
@@ -118,7 +109,6 @@ body{
   position: relative;
   top: 80px;
 }
-
 .box {
   width: 400px;
   height: 200px;
@@ -131,7 +121,6 @@ body{
 .shadow {
   position: relative;
 }
-
 .shadow:before, .shadow:after {
   z-index: -1;
   position: absolute;
@@ -151,7 +140,6 @@ body{
   -ms-transform: rotate(-3deg);
   transform: rotate(-3deg);
 }
-
 .shadow:after {
   -webkit-transform: rotate(3deg);
   -moz-transform: rotate(3deg);
@@ -160,4 +148,46 @@ body{
   transform: rotate(3deg);
   right: 10px;
   left: auto;
+}
+
+
+/***************************************/
+/* Contact Me */
+.contact_me {
+  display: none;
+  text-align: center;
+}
+.contact_me a{
+  /*color: rgb(47, 47, 47);*/
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 150px;
+  text-decoration: none;
+}
+.link_box {
+  display: inline-block;
+  margin: 80px 20px 50px;
+}
+.linkbox, a:hover{
+  color: rgba(102, 153, 255, 0.9);
+}
+.link_title {
+  display: block;
+  margin-top: 5px;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 18px;
+}
+.direct_contact {
+  text-align: left;
+  width: 310px;
+  margin: 10px auto;
+}
+.direct_contact a{
+  font-size: 50px;
+}
+.contact_info{
+  vertical-align: middle;
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 0.1em;
 }
