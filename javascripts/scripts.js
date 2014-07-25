@@ -8,7 +8,6 @@ function setEventHandlers(){
     $(this).addClass("clicked");
   });
 
-
   $('#about_me').on('click', function(evt){
     evt.preventDefault();
     $('div.about_me').siblings().css('display', 'none');

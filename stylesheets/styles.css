@@ -167,7 +167,7 @@ body{
   display: inline-block;
   margin: 80px 20px 50px;
 }
-.linkbox, a:hover{
+.link_box, a:hover{
   color: rgba(102, 153, 255, 0.9);
 }
 .link_title {
