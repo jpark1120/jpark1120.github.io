@@ -8,22 +8,22 @@ function setEventHandlers(){
     $(this).addClass("clicked");
   });
 
-  $('#about_me').on('click', function(evt){
+  $('#about-me').on('click', function(evt){
     evt.preventDefault();
-    $('div.about_me').siblings().fadeOut(1);
-    $('.about_me').fadeIn(500);
+    $('div.about-me').siblings().hide();
+    $('.about-me').fadeIn(500);
   });
 
-  $('#my_work').on('click', function(evt){
+  $('#my-work').on('click', function(evt){
     evt.preventDefault();
-    $('div.my_work').siblings().fadeOut(1);
-    $('.my_work').fadeIn(500);
+    $('div.my-work').siblings().hide();
+    $('.my-work').fadeIn(500);
   });
 
-  $('#contact_me').on('click', function(evt){
+  $('#contact-me').on('click', function(evt){
     evt.preventDefault();
-    $('div.contact_me').siblings().fadeOut(1);
-    $('.contact_me').fadeIn(500);
+    $('div.contact-me').siblings().hide();
+    $('.contact-me').fadeIn(500);
   });
 
 }

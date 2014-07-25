@@ -59,34 +59,34 @@ body{
 
 /***************************************/
 /* pg_top */
-.pg_top {
+.pg-top {
   /*background-color: rgb(47, 47, 47);*/
   background-color: rgba(0, 0, 0, 0.8);
   color: rgb(253, 253, 253);
   text-align: center;
   height: 170px;
 }
-.pg_top h1 {
+.pg-top h1 {
   font-size: 85px;
   line-height: 140px;
 }
-.pg_top a {
+.pg-top a {
   text-decoration: none;
   font-size: 18px;
   margin: 0 15px;
   color: rgb(253, 253, 253);
 }
-.pg_top a.clicked {
+.pg-top a.clicked {
   color: rgb(102, 153, 255);
 }
-.pg_top a:hover {
+.pg-top a:hover {
   color: rgb(102, 153, 255);
 }
 
 
 /***************************************/
 /* About Me */
-.about_me {
+.about-me {
   display: block;
   text-align: center;
 }
@@ -94,7 +94,7 @@ body{
 
 /***************************************/
 /* My Work Content */
-.my_work {
+.my-work {
   width: 100%;
   display: none;
 /*  white-space: nowrap;
@@ -153,41 +153,42 @@ body{
 
 /***************************************/
 /* Contact Me */
-.contact_me {
+.contact-me {
   display: none;
   text-align: center;
 }
-.contact_me a{
+.contact-me a{
   /*color: rgb(47, 47, 47);*/
   color: rgba(0, 0, 0, 0.8);
   font-size: 150px;
   text-decoration: none;
 }
-.link_box {
+.link-box {
   display: inline-block;
   margin: 80px 20px 50px;
 }
-.link_box, a:hover{
+.link-box, a:hover{
   color: rgba(102, 153, 255, 0.8);
 }
-.link_title {
+.link-title {
   display: block;
   margin-top: 5px;
   font-family: 'Nunito', sans-serif;
   letter-spacing: 0.1em;
   font-size: 18px;
 }
-.direct_contact {
+.direct-contact {
   text-align: left;
   width: 310px;
   margin: 10px auto;
 }
-.direct_contact a{
+.direct-contact a{
   font-size: 50px;
 }
-.contact_info{
+.contact-info{
   vertical-align: middle;
   font-size: 20px;
   font-family: 'Nunito', sans-serif;
   letter-spacing: 0.1em;
-}
+
+
