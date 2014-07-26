@@ -66,10 +66,6 @@ body{
   text-align: center;
   height: 170px;
 }
-.pg-top h1 {
-  font-size: 85px;
-  line-height: 140px;
-}
 .pg-top a {
   text-decoration: none;
   font-size: 18px;
@@ -82,15 +78,46 @@ body{
 .pg-top a:hover {
   color: rgb(102, 153, 255);
 }
-
+#name-banner {
+  margin:0 auto;
+  font-size: 85px;
+  line-height: 140px;
+  display: block;
+  width: 40%;
+  /*take min width out when starting to implement media queries*/
+  min-width: 500px;
+}
 
 /***************************************/
 /* About Me */
 .about-me {
-  display: block;
-  text-align: center;
+  position: relative;
+  width: 75%;
+  background: rgb(253, 253, 253);
+  height: 500px;
+  margin: 20px auto;
+  padding: 15px;
 }
-
+.profile {
+  color: rgb(190, 38, 6);
+  position: relative;
+  border: 1px solid black;
+  height: 100%;
+  width: 100%;
+}
+.profile:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0px;
+  height: 0px;
+  border-bottom: 70px solid red;
+  border-left: 70px solid transparent;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+}
+.profile h1 {
+}
 
 /***************************************/
 /* My Work Content */
@@ -112,7 +139,7 @@ body{
 .box {
   width: 400px;
   height: 200px;
-  background: #FFF;
+  background: rgb(253, 253, 253);
   margin: 70px 10px;
   display: inline-block;
 }

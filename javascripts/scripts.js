@@ -26,6 +26,16 @@ function setEventHandlers(){
     $('.contact-me').fadeIn(500);
   });
 
+  $('#name-banner').on('click', function(evt){
+    evt.preventDefault();
+    $('div.about-me').siblings().hide();
+    $('.links').each(function(i, link){
+      $(link).removeClass('clicked');
+    });
+    $('#about-me').addClass("clicked");
+    $('.about-me').fadeIn(500);
+  });
+
 }
 
 
