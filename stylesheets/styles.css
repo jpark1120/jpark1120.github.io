@@ -104,8 +104,9 @@ body{
   border: 1px solid black;
   height: 100%;
   width: 100%;
+  background: rgba(0, 0, 0, 0.9);
 }
-.profile:before {
+/*.profile:before {
   content: "";
   position: absolute;
   top: 0%;
@@ -115,7 +116,7 @@ body{
   border-bottom: 70px solid red;
   border-left: 70px solid transparent;
   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
-}
+}*/
 .profile h1 {
 }
 
@@ -131,19 +132,26 @@ body{
   margin: 0 auto;
   display: table;
 }
-.box h3{
-  text-align: center;
-  position: relative;
-  top: 80px;
-}
 .box {
   width: 400px;
-  height: 200px;
+  height: 250px;
+  padding: 10px 15px;
   background: rgb(253, 253, 253);
   margin: 70px 10px;
   display: inline-block;
 }
-
+/* clickable screenshot*/
+.screenshot {
+  width: 100%;
+  height: 80%;
+  background: rgb(0, 0, 0);
+}
+.screenshot h3{
+  text-align: center;
+  position: relative;
+  top: 50%;
+  color: white;
+}
 /* box shadow */
 .shadow {
   position: relative;
