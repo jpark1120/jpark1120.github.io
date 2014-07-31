@@ -90,6 +90,7 @@ body{
   text-decoration: none;
   font-size: 18px;
   margin: 15px;
+  padding: 2px;
   color: rgb(253, 253, 253);
 }
 .nav a.clicked {
@@ -136,9 +137,6 @@ body{
   width: 80%;
   margin: 0 auto;
 }
-
-
-
 .box {
   width: 40%;
   min-width: 400px;
@@ -164,10 +162,6 @@ body{
   display: inline-block;
   background: rgba(29, 27, 26, 1.0);
 }
-
-
-
-
 /* box shadow */
 .shadow {
   position: relative;
@@ -214,7 +208,7 @@ body{
 .contact-me a{
   /*color: rgb(47, 47, 47);*/
   color: rgb(253, 253, 253);
-  font-size: 150px;
+  font-size: 140px;
   text-decoration: none;
 }
 .link-box {
