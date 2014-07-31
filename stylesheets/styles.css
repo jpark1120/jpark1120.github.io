@@ -131,7 +131,6 @@ body{
   background-image: url(../img/proj2.png);
 }
 .project_container:nth-child(3) .screenshot{
-  /*background-image: url(../img/proj3.png);*/
 }
 .proj {
   width: 80%;
@@ -152,15 +151,14 @@ body{
   height: 80%;
   background: rgb(0, 0, 0);
 }
-.screenshot h3{
-  text-align: center;
-  position: relative;
-  top: 50%;
-  color: white;
-}
+
 .description {
   display: inline-block;
-  background: rgba(29, 27, 26, 1.0);
+  color: white;
+  width: 400px;
+  padding: 20px;
+  vertical-align: top;
+  margin-top: 50px;
 }
 /* box shadow */
 .shadow {
@@ -206,7 +204,6 @@ body{
   color: rgb(253, 253, 253);
 }
 .contact-me a{
-  /*color: rgb(47, 47, 47);*/
   color: rgb(253, 253, 253);
   font-size: 140px;
   text-decoration: none;
