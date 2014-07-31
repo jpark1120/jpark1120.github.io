@@ -70,18 +70,10 @@ body{
   background-color: rgba(0, 0, 0, 0.8);
   color: rgb(253, 253, 253);
 }
-.banner a {
-  display: inline-block;
-  text-decoration: none;
-  font-size: 18px;
-  margin: 0 15px;
-  color: rgb(253, 253, 253);
-}
-.banner a.clicked {
-  color: rgb(102, 153, 255);
-}
-.banner a:hover {
-  color: rgb(102, 153, 255);
+.banner {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 15px;
 }
 .banner h1 {
   text-align: left;
@@ -90,16 +82,28 @@ body{
   margin-right: 15px;
   display: inline-block;
 }
-.banner {
-  width: 75%;
-  margin: 0 auto;
-  padding-top: 15px;
+.nav {
+  display: inline-block;
 }
+.nav a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 15px;
+  color: rgb(253, 253, 253);
+}
+.nav a.clicked {
+  color: rgb(102, 153, 255);
+}
+.nav a:hover {
+  color: rgb(102, 153, 255);
+}
+
 
 /***************************************/
 /* About Me */
 .content {
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
 }
 .about-me {
@@ -126,11 +130,12 @@ body{
   text-align: center;
 }
 .box {
-  width: 400px;
+  width: 40%;
+  min-width: 400px;
   height: 250px;
   padding: 10px 15px;
   background: rgb(253, 253, 253);
-  margin: 70px auto;
+  margin: 70px 15px;
   display: inline-block;
 }
 /* clickable screenshot*/
@@ -206,6 +211,7 @@ body{
 }
 .direct-contact {
   text-align: center;
+  margin-bottom: 70px;
 }
 .direct-contact a{
   display: inline-block;
