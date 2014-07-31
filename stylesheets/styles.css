@@ -48,96 +48,89 @@ table {
 }
 
 /***************************************/
+/* fonts */
+@font-face {
+    font-family: 'Neue Helvetica';
+    src: url('../font/HelveticaNeueLTStd-Lt.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 /* My Styles */
 body{
   background-image: url(../img/kindajean.png);
-  /*background-color: rgb(236, 240, 241);*/
-  font-family: 'Nunito', sans-serif;
-  letter-spacing: 0.1em;
+  font-family: 'Neue Helvetica', Helvetica, Arial, sans-serif;
 }
 
 
 /***************************************/
 /* pg_top */
 .pg-top {
-  /*background-color: rgb(47, 47, 47);*/
   background-color: rgba(0, 0, 0, 0.8);
   color: rgb(253, 253, 253);
-  text-align: center;
-  height: 170px;
 }
-.pg-top a {
+.banner a {
+  display: inline-block;
   text-decoration: none;
   font-size: 18px;
   margin: 0 15px;
   color: rgb(253, 253, 253);
 }
-.pg-top a.clicked {
+.banner a.clicked {
   color: rgb(102, 153, 255);
 }
-.pg-top a:hover {
+.banner a:hover {
   color: rgb(102, 153, 255);
 }
-#name-banner {
-  margin:0 auto;
+.banner h1 {
+  text-align: left;
+  padding-top:10px;
   font-size: 85px;
-  line-height: 140px;
-  display: block;
-  width: 40%;
-  /*take min width out when starting to implement media queries*/
-  min-width: 500px;
+  margin-right: 15px;
+  display: inline-block;
+}
+.banner {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 15px;
 }
 
 /***************************************/
 /* About Me */
+.content {
+  width: 75%;
+  margin: 0 auto;
+}
 .about-me {
   position: relative;
-  width: 75%;
   background: rgb(253, 253, 253);
   height: 500px;
-  margin: 20px auto;
+  margin: 50px auto;
   padding: 15px;
 }
 .profile {
   color: rgb(190, 38, 6);
   position: relative;
   border: 1px solid black;
-  height: 100%;
+  height: 90%;
   width: 100%;
   background: rgba(0, 0, 0, 0.9);
 }
-/*.profile:before {
-  content: "";
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 0px;
-  height: 0px;
-  border-bottom: 70px solid red;
-  border-left: 70px solid transparent;
-  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
-}*/
 .profile h1 {
 }
 
 /***************************************/
 /* My Work Content */
 .my-work {
-  width: 100%;
-  display: none;
-/*  white-space: nowrap;
-  overflow: scroll;*/
-}
-.pieces {
-  margin: 0 auto;
-  display: table;
+  text-align: center;
 }
 .box {
   width: 400px;
   height: 250px;
   padding: 10px 15px;
   background: rgb(253, 253, 253);
-  margin: 70px 10px;
+  margin: 70px auto;
   display: inline-block;
 }
 /* clickable screenshot*/
@@ -189,7 +182,6 @@ body{
 /***************************************/
 /* Contact Me */
 .contact-me {
-  display: none;
   text-align: center;
 }
 .contact-me a{
@@ -208,22 +200,22 @@ body{
 .link-title {
   display: block;
   margin-top: 5px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Neue Helvetica', Helvetica, Arial, sans-serif;
   letter-spacing: 0.1em;
   font-size: 18px;
 }
 .direct-contact {
-  text-align: left;
-  width: 310px;
-  margin: 10px auto;
+  text-align: center;
 }
 .direct-contact a{
+  display: inline-block;
   font-size: 50px;
+  margin: 10px;
 }
 .contact-info{
   vertical-align: middle;
   font-size: 20px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Neue Helvetica', Helvetica, Arial, sans-serif;
   letter-spacing: 0.1em;
 
 
