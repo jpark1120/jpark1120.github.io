@@ -103,39 +103,49 @@ body{
 /***************************************/
 /* About Me */
 .content {
-  width: 80%;
-  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .about-me {
-  position: relative;
-  background: rgb(253, 253, 253);
   height: 500px;
-  margin: 50px auto;
-  padding: 15px;
+  padding: 50px 0;
+  background: rgba(29, 27, 26, 0.4);
 }
 .profile {
-  color: rgb(190, 38, 6);
-  position: relative;
-  border: 1px solid black;
-  height: 90%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.9);
+  color: rgb(102, 153, 255);
+  margin: 0 auto;
+  height: 100%;
+  width: 80%;
 }
-.profile h1 {
-}
+
 
 /***************************************/
 /* My Work Content */
-.my-work {
-  text-align: center;
+.project_container {
+  display: block;
 }
+.project_container:first-child .screenshot{
+  background-image: url(../img/proj3.png);
+}
+.project_container:nth-child(2) .screenshot{
+  background-image: url(../img/proj2.png);
+}
+.project_container:nth-child(3) .screenshot{
+  /*background-image: url(../img/proj3.png);*/
+}
+.proj {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
 .box {
   width: 40%;
   min-width: 400px;
   height: 250px;
   padding: 10px 15px;
   background: rgb(253, 253, 253);
-  margin: 70px 15px;
+  margin: 50px 0;
   display: inline-block;
 }
 /* clickable screenshot*/
@@ -150,6 +160,14 @@ body{
   top: 50%;
   color: white;
 }
+.description {
+  display: inline-block;
+  background: rgba(29, 27, 26, 1.0);
+}
+
+
+
+
 /* box shadow */
 .shadow {
   position: relative;
@@ -188,30 +206,32 @@ body{
 /* Contact Me */
 .contact-me {
   text-align: center;
+  margin: 0 auto;
+  padding: 50px 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(253, 253, 253);
 }
 .contact-me a{
   /*color: rgb(47, 47, 47);*/
-  color: rgba(0, 0, 0, 0.8);
+  color: rgb(253, 253, 253);
   font-size: 150px;
   text-decoration: none;
 }
 .link-box {
   display: inline-block;
-  margin: 80px 20px 50px;
+  margin: 10px 20px;
 }
 .link-box, a:hover{
-  color: rgba(102, 153, 255, 0.8);
+  color: rgb(102, 153, 255);
 }
 .link-title {
   display: block;
   margin-top: 5px;
   font-family: 'Neue Helvetica', Helvetica, Arial, sans-serif;
-  letter-spacing: 0.1em;
   font-size: 18px;
 }
 .direct-contact {
   text-align: center;
-  margin-bottom: 70px;
 }
 .direct-contact a{
   display: inline-block;
@@ -222,6 +242,5 @@ body{
   vertical-align: middle;
   font-size: 20px;
   font-family: 'Neue Helvetica', Helvetica, Arial, sans-serif;
-  letter-spacing: 0.1em;
-
+}
 
