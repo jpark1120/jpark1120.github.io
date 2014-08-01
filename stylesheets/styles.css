@@ -108,7 +108,7 @@ body{
 }
 .about-me {
   height: 500px;
-  padding: 50px 0;
+  padding: 50px 0px;
   background: rgba(29, 27, 26, 0.4);
 }
 .profile {
@@ -139,13 +139,13 @@ body{
 .proj {
   width: 80%;
   margin: 0 auto;
-  padding: 50px;
+  padding: 50px 0px;
 }
 .box {
   width: 40%;
-  min-width: 400px;
+  min-width: 375px;
   height: 250px;
-  padding: 10px 15px;
+  padding: 1.5%;
   background: rgba(237, 238, 241, 1);
   display: inline-block;
 }
@@ -159,15 +159,16 @@ body{
   display: inline-block;
   color: white;
   width: 50%;
-  min-width: 400px;
+  min-width: 375px;
   padding: 20px;
   vertical-align: top;
 }
 .description h1, .description p{
-  padding-top: 10px;
-  padding-left: 25px;
+  padding: 1%;
 }
-
+.description p {
+  line-height: 1.5em;
+}
 .project_container:nth-child(1) h1 {
   font-family: sans-serif;
   font-size: 60px;
@@ -224,7 +225,7 @@ body{
 .contact-me {
   text-align: center;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 50px 0px;
   background-color: rgba(0, 0, 0, 0.8);
   color: rgba(253, 253, 253, 1.0);
 }
