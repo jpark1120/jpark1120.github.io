@@ -135,6 +135,7 @@ body{
 .proj {
   width: 80%;
   margin: 0 auto;
+  padding: 50px;
 }
 .box {
   width: 40%;
@@ -142,7 +143,6 @@ body{
   height: 250px;
   padding: 10px 15px;
   background: rgb(253, 253, 253);
-  margin: 50px 0;
   display: inline-block;
 }
 /* clickable screenshot*/
@@ -158,7 +158,6 @@ body{
   width: 400px;
   padding: 20px;
   vertical-align: top;
-  margin-top: 50px;
 }
 /* box shadow */
 .shadow {
