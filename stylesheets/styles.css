@@ -126,11 +126,15 @@ body{
 }
 .project_container:first-child .screenshot{
   background-image: url(../img/proj3.png);
+  background-size: cover;
 }
 .project_container:nth-child(2) .screenshot{
   background-image: url(../img/proj2.png);
+  background-size: cover;
 }
 .project_container:nth-child(3) .screenshot{
+  background-image: url(../img/proj1.png);
+  background-size: cover;
 }
 .proj {
   width: 80%;
@@ -148,7 +152,7 @@ body{
 /* clickable screenshot*/
 .screenshot {
   width: 100%;
-  height: 80%;
+  height: 85%;
   background: rgb(0, 0, 0);
 }
 
