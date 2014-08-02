@@ -147,7 +147,7 @@ body{
 .box {
   width: 40%;
   max-width: 500px;
-  min-width: 320px;
+  min-width: 280px;
   height: 250px;
   padding: 1.5%;
   background: rgba(237, 238, 241, 1);
