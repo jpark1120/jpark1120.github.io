@@ -146,8 +146,8 @@ body{
 }
 .box {
   width: 40%;
-  /*max-width: 500px;*/
-  min-width: 280px;
+  max-width: 500px;
+  min-width: 320px;
   height: 250px;
   padding: 1.5%;
   background: rgba(237, 238, 241, 1);
@@ -166,7 +166,7 @@ body{
   display: inline-block;
   color: white;
   width: 50%;
-  min-width: 280px;
+  min-width: 320px;
   padding: 20px;
   vertical-align: top;
 }
