@@ -110,7 +110,7 @@ body{
   background-color: rgba(0, 0, 0, 0.6);
 }
 .about-me {
-  height: 500px;
+  min-height: 450px;
   padding: 50px 0px;
   background: rgba(29, 27, 26, 0.4);
 }
@@ -121,7 +121,22 @@ body{
   width: 80%;
 }
 .profile h1 {
+  font-size: 40px;
   color: rgba(255, 102, 0, 1.0);
+  margin-bottom: 2%;
+}
+.my_intro {
+  margin: 2% 0;
+
+}
+.intro_content{
+  line-height: 2em;
+  width: 95%;
+  margin: 15px auto;
+}
+.quote {
+  font-style: italic;
+  line-height: 2em;
 }
 
 
