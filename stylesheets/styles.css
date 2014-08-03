@@ -202,10 +202,11 @@ body{
     width: 100%;
   }
   .nav a{
-    margin: 0 auto;
+    margin: 2px auto;
+    padding: 1px;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 770px) {
   .box, .description {
     width: 100%;
   }
