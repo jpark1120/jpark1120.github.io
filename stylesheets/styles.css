@@ -197,9 +197,8 @@ body{
 }
 
 @media screen and (max-width: 480px) {
-  .box .description{
-    padding:0;
-    min-width: 200px;
+  .box, .description{
+    min-width: 0px;
     width: 100%;
   }
 
