@@ -83,7 +83,7 @@ body{
   display: inline-block;
 }
 #dot {
-  color: rgba(228, 36, 39, 1);
+  color: rgba(255, 102, 0, 1.0);
 }
 .nav {
   display: inline-block;
@@ -97,10 +97,10 @@ body{
   color: rgba(253, 253, 253, 1.0);
 }
 .nav a.clicked {
-  color: rgba(228, 36, 39, 1);
+  color: rgba(255, 102, 0, 1.0);
 }
 .nav a:hover {
-  color: rgba(228, 36, 39, 1);
+  color: rgba(255, 102, 0, 1.0);
 }
 
 
@@ -121,7 +121,7 @@ body{
   width: 80%;
 }
 .profile h1 {
-  color: rgba(228, 36, 39, 1);
+  color: rgba(255, 102, 0, 1.0);
 }
 
 
@@ -173,7 +173,7 @@ body{
 .description h1{
   padding: 1%;
   font-size: 60px;
-  color: rgba(228, 36, 39, 1);
+  color: rgba(255, 102, 0, 1.0);
 }
 .description p {
   padding: 1%;
@@ -250,7 +250,7 @@ body{
   margin: 10px 20px;
 }
 .link-box, a:hover{
-  color: rgba(228, 36, 39, 1);
+  color: rgba(255, 102, 0, 1.0);
 }
 .link-title {
   display: block;
