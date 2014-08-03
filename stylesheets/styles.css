@@ -181,7 +181,7 @@ body{
   display: inline-block;
   color: white;
   width: 50%;
-  min-width: 300px;
+  min-width: 320px;
   padding: 1.5%;
   vertical-align: top;
 }
@@ -195,6 +195,13 @@ body{
   line-height: 1.5em;
   color: rgba(253, 253, 253, 1.0);
 }
+
+@media all and (min-width: 320px;) {
+  .description p{
+    color: red;
+  }
+}
+
 /* box shadow */
 .shadow {
   position: relative;
