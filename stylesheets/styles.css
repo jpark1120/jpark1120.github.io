@@ -125,20 +125,26 @@ body{
   color: rgba(255, 102, 0, 1.0);
   margin-bottom: 2%;
 }
-.my_intro {
-  margin: 2% 0;
-
+.trio {
+  margin-right: 2%;
 }
-.intro_content{
+.my-intro {
+  font-size: 24px;
+  line-height: 2em;
+  margin: 2% 0;
+}
+.intro-content {
+  display: none;
+  padding-left: 2%;
+  margin: 15px 0;
   line-height: 2em;
   width: 95%;
-  margin: 15px auto;
 }
 .quote {
+  display: none;
   font-style: italic;
   line-height: 2em;
 }
-
 
 /***************************************/
 /* My Work Content */
@@ -194,21 +200,6 @@ body{
   padding: 1%;
   line-height: 1.5em;
   color: rgba(253, 253, 253, 1.0);
-}
-
-@media screen and (max-width: 480px) {
-  .box, .description{
-    min-width: 0px;
-    width: 100%;
-  }
-  .nav a{
-    margin: 2px auto;
-  }
-}
-@media screen and (max-width: 960px) {
-  .box, .description {
-    width: 100%;
-  }
 }
 
 /* box shadow */

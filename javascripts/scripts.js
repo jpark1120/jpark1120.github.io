@@ -28,6 +28,14 @@ function setEventHandlers(){
       scrollTop: ($('.contact-me').offset().top)
     },500);
   });
+
+  $(window).on('load', function(){
+    $('.intro-content').fadeIn(2000, function(){
+       $('.quote').fadeIn(1000);
+    });
+  });
+
+
 }
 // The .offset() method allows us to retrieve the current position of an element relative to the document
 

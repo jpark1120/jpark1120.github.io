@@ -1,0 +1,23 @@
+@media screen and (max-width: 480px) {
+  .box, .description{
+    min-width: 0px;
+    width: 100%;
+  }
+  .nav a{
+    margin: 2px auto;
+  }
+
+  .trio {
+    font-size: 25px;
+    margin-right: 1%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .box, .description {
+    width: 100%;
+  }
+  .intro-content {
+    width: 90%;
+  }
+}
