@@ -30,8 +30,8 @@ function setEventHandlers(){
   });
 
   $(window).on('load', function(){
-    $('.intro-content').fadeIn(2000, function(){
-       $('.quote').fadeIn(1000);
+    $('.intro-content').css("visibility", "visible").hide().fadeIn(2000, function(){
+       $('.quote').css("visibility", "visible").hide().fadeIn(1000);
     });
   });
 

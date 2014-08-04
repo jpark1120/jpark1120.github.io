@@ -134,14 +134,14 @@ body{
   margin: 2% 0;
 }
 .intro-content {
-  display: none;
+  visibility: hidden;
   padding-left: 2%;
   margin: 15px 0;
   line-height: 2em;
   width: 95%;
 }
 .quote {
-  display: none;
+  visibility: hidden;
   font-style: italic;
   line-height: 2em;
 }
