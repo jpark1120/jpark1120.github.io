@@ -201,6 +201,9 @@ body{
   line-height: 1.5em;
   color: rgba(253, 253, 253, 1.0);
 }
+.details {
+  font-style: italic;
+}
 
 /* box shadow */
 .shadow {
