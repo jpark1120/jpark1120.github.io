@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,267 +16,329 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-  display: block;
+	display: block;
 }
 body {
-  line-height: 1;
+	line-height: 1;
 }
 ol, ul {
-  list-style: none;
+	list-style: none;
 }
 blockquote, q {
-  quotes: none;
+	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none;
+	content: '';
+	content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 /***************************************/
 /* fonts */
 @font-face {
-    font-family: 'Neue Helvetica';
-    src: url('../font/HelveticaNeueLTStd-Lt.otf');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Neue Helvetica';
+	src: url('../font/HelveticaNeueLTStd-Lt.otf');
+	font-weight: normal;
+	font-style: normal;
 }
 
 
 /* My Styles */
 body{
-  background-image: url(../img/kindajean.png);
-  font-family: 'Neue Helvetica', Helvetica, Arial, sans-serif;
+	background-image: url(../img/kindajean.png);
+	font-family: 'Neue Helvetica', Helvetica, Arial, sans-serif;
 }
 
 
 /***************************************/
 /* pg_top */
 .pg-top {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: rgba(253, 253, 253, 1.0);
+	background-color: rgba(0, 0, 0, 0.8);
+	color: rgba(253, 253, 253, 1.0);
 }
 .banner {
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 15px;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 15px;
 }
 .banner h1 {
-  text-align: left;
-  padding-top:10px;
-  font-size: 85px;
-  margin-right: 15px;
-  display: inline-block;
+	text-align: left;
+	padding-top:10px;
+	font-size: 85px;
+	margin-right: 15px;
+	display: inline-block;
 }
 #dot {
-  color: rgba(255, 102, 0, 1.0);
+	color: rgba(255, 102, 0, 1.0);
 }
 .nav {
-  display: inline-block;
+	display: inline-block;
 }
 .nav a {
-  display: inline-block;
-  text-decoration: none;
-  font-size: 18px;
-  margin: 15px;
-  padding: 2px;
-  color: rgba(253, 253, 253, 1.0);
+	display: inline-block;
+	text-decoration: none;
+	font-size: 18px;
+	margin: 15px;
+	padding: 2px;
+	color: rgba(253, 253, 253, 1.0);
 }
 .nav a.clicked {
-  color: rgba(255, 102, 0, 1.0);
+	color: rgba(255, 102, 0, 1.0);
 }
 .nav a:hover {
-  color: rgba(255, 102, 0, 1.0);
+	color: rgba(255, 102, 0, 1.0);
 }
 
 
 /***************************************/
 /* About Me */
 .content {
-  background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.6);
 }
 .about-me {
-  min-height: 450px;
-  padding: 50px 0px;
-  background: rgba(29, 27, 26, 0.4);
+	min-height: 450px;
+	padding: 50px 0px;
+	background: rgba(29, 27, 26, 0.4);
 }
 .profile {
-  color: rgba(253, 253, 253, 1.0);
-  margin: 0 auto;
-  height: 100%;
-  width: 80%;
+	color: rgba(253, 253, 253, 1.0);
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
 }
 .profile h1 {
-  font-size: 40px;
-  color: rgba(255, 102, 0, 1.0);
-  margin-bottom: 2%;
+	font-size: 40px;
+	color: rgba(255, 102, 0, 1.0);
+	margin-bottom: 2%;
 }
 .trio {
-  margin-right: 2%;
+	margin-right: 2%;
 }
 .my-intro {
-  font-size: 24px;
-  line-height: 2em;
-  margin: 2% 0;
+	font-size: 24px;
+	line-height: 2em;
+	margin: 2% 0;
 }
 .intro-content {
-  visibility: hidden;
-  padding-left: 2%;
-  margin: 15px 0;
-  line-height: 2em;
-  width: 95%;
+	visibility: hidden;
+	padding-left: 2%;
+	margin: 15px 0;
+	line-height: 2em;
+	width: 95%;
 }
 .quote {
-  visibility: hidden;
-  font-style: italic;
-  line-height: 2em;
+	visibility: hidden;
+	font-style: italic;
+	line-height: 2em;
 }
 
-/***************************************/
-/* My Work Content */
-.project_container {
-  display: block;
-}
-.project_container:first-child .screenshot{
-  background-image: url(../img/proj3.png);
-}
-.project_container:nth-child(2) .screenshot{
-  background-image: url(../img/proj2.png);
-}
-.project_container:nth-child(3) .screenshot{
-  background-image: url(../img/proj1.png);
-}
-.proj {
-  width: 80%;
-  margin: 0 auto;
-  padding: 50px 0px;
-}
 .box {
-  width: 40%;
-  max-width: 500px;
-  min-width: 320px;
-  height: 250px;
-  padding: 1.5%;
-  background: rgba(237, 238, 241, 1);
-  display: inline-block;
+	width: 40%;
+	max-width: 500px;
+	min-width: 320px;
+	height: 250px;
+	padding: 1.5%;
+	background: rgba(237, 238, 241, 1);
+	display: inline-block;
 }
 /* clickable screenshot*/
 .screenshot {
-  width: 100%;
-  height: 90%;
-  background-size: cover;
-  background-position: center;
-  background-position-y: 0%;
+	width: 100%;
+	height: 90%;
+	background-size: cover;
+	background-position: center;
+	background-position-y: 0%;
 }
 /* description section styling */
-.description {
-  display: inline-block;
-  color: white;
-  width: 50%;
-  min-width: 320px;
-  padding: 1.5%;
-  vertical-align: top;
+.project-description {
+	width: 50%;
 }
-.description h1{
-  padding: 1%;
-  font-size: 60px;
-  color: rgba(255, 102, 0, 1.0);
+.project-description h1{
+	padding: 1%;
+	font-size: 60px;
+	color: rgba(255, 102, 0, 1.0);
 }
-.description p {
-  padding: 1%;
-  line-height: 1.5em;
-  color: rgba(253, 253, 253, 1.0);
+.project-description p {
+	padding: 1%;
+	line-height: 1.5em;
+	color: rgba(253, 253, 253, 1.0);
 }
 .details {
-  font-style: italic;
+	font-style: italic;
 }
 
 /* box shadow */
 .shadow {
-  position: relative;
+	position: relative;
 }
 .shadow:before, .shadow:after {
-  z-index: -1;
-  position: absolute;
-  content: "";
-  bottom: 15px;
-  left: 10px;
-  width: 50%;
-  top: 80%;
-  max-width: 300px;
-  background: #777;
-  -webkit-box-shadow: 0 15px 10px #777;
-  -moz-box-shadow: 0 15px 10px #777;
-  box-shadow: 0 15px 10px #777;
-  -webkit-transform: rotate(-3deg);
-  -moz-transform: rotate(-3deg);
-  -o-transform: rotate(-3deg);
-  -ms-transform: rotate(-3deg);
-  transform: rotate(-3deg);
+	z-index: -1;
+	position: absolute;
+	content: "";
+	bottom: 15px;
+	left: 10px;
+	width: 50%;
+	top: 80%;
+	max-width: 300px;
+	background: #777;
+	-webkit-box-shadow: 0 15px 10px #777;
+	-moz-box-shadow: 0 15px 10px #777;
+	box-shadow: 0 15px 10px #777;
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+	-o-transform: rotate(-3deg);
+	-ms-transform: rotate(-3deg);
+	transform: rotate(-3deg);
 }
 .shadow:after {
-  -webkit-transform: rotate(3deg);
-  -moz-transform: rotate(3deg);
-  -o-transform: rotate(3deg);
-  -ms-transform: rotate(3deg);
-  transform: rotate(3deg);
-  right: 10px;
-  left: auto;
+	-webkit-transform: rotate(3deg);
+	-moz-transform: rotate(3deg);
+	-o-transform: rotate(3deg);
+	-ms-transform: rotate(3deg);
+	transform: rotate(3deg);
+	right: 10px;
+	left: auto;
 }
 
 
 /***************************************/
 /* Contact Me */
 .contact-me {
-  text-align: center;
-  margin: 0 auto;
-  padding: 50px 0px;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: rgba(253, 253, 253, 1.0);
+	text-align: center;
+	margin: 0 auto;
+	padding: 50px 0px;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: rgba(253, 253, 253, 1.0);
 }
 .contact-me a{
-  color: rgba(253, 253, 253, 1.0);
-  font-size: 140px;
-  text-decoration: none;
+	color: rgba(253, 253, 253, 1.0);
+	font-size: 140px;
+	text-decoration: none;
 }
 .link-box {
-  display: inline-block;
-  margin: 10px 20px;
+	display: inline-block;
+	margin: 10px 20px;
 }
 .link-box, a:hover{
-  color: rgba(255, 102, 0, 1.0);
+	color: rgba(255, 102, 0, 1.0);
 }
 .link-title {
-  display: block;
-  margin-top: 5px;
-  font-family: 'Neue Helvetica', Helvetica, Arial, sans-serif;
-  font-size: 18px;
+	display: block;
+	margin-top: 5px;
+	font-family: 'Neue Helvetica', Helvetica, Arial, sans-serif;
+	font-size: 18px;
 }
 .direct-contact {
-  text-align: center;
+	text-align: center;
 }
 .direct-contact a{
-  display: inline-block;
-  font-size: 50px;
-  margin: 10px;
+	display: inline-block;
+	font-size: 50px;
+	margin: 10px;
 }
 .contact-info{
-  vertical-align: middle;
-  font-size: 20px;
-  font-family: 'Neue Helvetica', Helvetica, Arial, sans-serif;
+	vertical-align: middle;
+	font-size: 20px;
+	font-family: 'Neue Helvetica', Helvetica, Arial, sans-serif;
+}
+
+/* Isolated styles for video container before page rework */
+.my-work {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+/*	-ms-flex-pack: distribute;
+	-webkit-justify-content: space-around;
+	-moz-justify-content: space-around;
+	justify-content: space-around;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	align-items: center;*/
+	-webkit-box-direction: normal;
+	-webkit-box-orient: vertical;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	width: 80%;
+	margin: auto;
+}
+
+.project-container {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	align-items: center;
+	margin: 2em 0;
+}
+
+.project-container:nth-child(2) .project-thumbnail-link {
+	background: url(../img/proj3.png) center center/contain no-repeat;
+}
+
+.project-container:nth-child(3) .project-thumbnail-link {
+	background: url(../img/proj2.png) center center/contain no-repeat;
+}
+
+.project-container:nth-child(4) .project-thumbnail-link {
+	background: url(../img/proj1.png) center center/contain no-repeat;
+}
+
+.project-thumbnail {
+	width: 40%;
+	padding: 1.5%;
+	background: rgba(237, 238, 241, 1);
+}
+
+.project-thumbnail-link {
+	display: block;
+	cursor: pointer;
+	width: 100%;
+	padding-top: 56.25%;
+	height: 0;
+}
+
+.media-embed-item {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-top: 56.25%;
+}
+
+.media-embed-item iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
